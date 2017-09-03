@@ -21,6 +21,11 @@ header {
     margin: 0.5em 0.25em;
 }
 
+.body__image {
+    width: 100%;
+    margin: 0.5em 0.25em;
+}
+
 .header__title {
     font-weight: 300;
     font-size: 2em;
@@ -28,6 +33,28 @@ header {
     display: inline-block;
     color: #212121;
 }
+.portfolio__title {
+    font-weight: 100;
+    font-size: 2em;
+    margin: 0.5em 0.25em;
+    display: inline-block;
+    color: grey;
+}
+
+.sidebar__inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.color__square {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    background-color: #02b3e4;
+}
+
 h1 {
     font-weight: 300;
     font-size: 1.5em;
@@ -52,11 +79,9 @@ body {
     
 .left {
     float: left;
-    margin-right: 8px;
 }
 .right {
     float: right;
-    margin-left: 8px;
 }
 .clear-left {
     clear: left;
