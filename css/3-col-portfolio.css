@@ -4,6 +4,34 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
  */
 
+header {
+    box-sizing: border-box;
+    min-height: 56px;
+    margin-bottom: 5em;
+}
+
+.header__inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    height: 80px;
+    margin: 0.5em 0.25em;
+}
+
+.header__title {
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0.5em 0.25em;
+    display: inline-block;
+    color: #212121;
+}
+h1 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
 body {
     padding-top: 54px;
 }
@@ -21,3 +49,30 @@ body {
 .pagination {
     margin-bottom: 30px;
 }
+    
+.left {
+    float: left;
+    margin-right: 8px;
+}
+.right {
+    float: right;
+    margin-left: 8px;
+}
+.clear-left {
+    clear: left;
+}
+.clear-right {
+    clear: right;
+}
+.clear-both {
+   clear: both;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
