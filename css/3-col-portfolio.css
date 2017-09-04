@@ -51,8 +51,21 @@ header {
 .color__square {
     height: 80px;
     width: 80px;
-    display: inline-block;
+    box-sizing: border-box;
     background-color: #02b3e4;
+    margin-top: 1em;
+}
+
+.square__blue {
+    background-color: #02b3e4;
+}
+
+.square__black {
+    background-color: #2d3c49;
+}
+
+.square__grey {
+    background-color: #7d97ad;
 }
 
 h1 {
