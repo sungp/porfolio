@@ -33,6 +33,7 @@ header {
     display: inline-block;
     color: #212121;
 }
+
 .portfolio__title {
     font-weight: 100;
     font-size: 2em;
@@ -68,6 +69,10 @@ header {
     background-color: #7d97ad;
 }
 
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
 h1 {
     font-weight: 300;
     font-size: 1.5em;
@@ -80,30 +85,6 @@ body {
     body {
         padding-top: 56px;
     }
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.pagination {
-    margin-bottom: 30px;
-}
-    
-.left {
-    float: left;
-}
-.right {
-    float: right;
-}
-.clear-left {
-    clear: left;
-}
-.clear-right {
-    clear: right;
-}
-.clear-both {
-   clear: both;
 }
 
 hr {
