@@ -24,37 +24,43 @@
     <div class="container">
       <div class="row">
         <!-- side bar -->
-        <div class="col-lg-2">
-          <div class="sidebar__inner">
-            <div class="color__square square__blue"> </div>
-            <h1> #02b3e4 </h1>
-            <div class="color__square square__black"> </div>
-            <h1> #2d3c49 </h1>
-            <div class="color__square square__grey"> </div>
-            <h1> #7d97ad </h1>
-          </div>
-        </div> <!--col-lg-2"-->
+        <aside class="col-lg-2">
+          <div class="color__square square__blue"> </div>
+          <h1> #02b3e4 </h1>
+          <div class="color__square square__black"> </div>
+          <h1> #2d3c49 </h1>
+          <div class="color__square square__grey"> </div>
+          <h1> #7d97ad </h1>
+        </aside> 
         <!-- portfolio -->
-        <div class="col-lg-10">
+        <section class="col-lg-10">
           <!-- header -->
-          <div class="row justify-content-between">
+          <header class="row justify-content-between">
             <img class="col-sm-2 header__logo" src="images/udacity.svg" alt="udacity logo">
             <div class="col-sm-3 header__title">
               <h1> Sung Park </h1>
               <h3> Front End Ninja </h3>
             </div>
-          </div>
-          <hr>
-          <!-- content -->
+          </header>
+          <!-- divider -->
           <div class="row">
-            <div class="container"> 
+            <div class="col">
+              <hr>
+            </div>
+          </div>
+          <!-- splash image -->
+          <section class="row">
+            <div class="col"> 
               <img class="body__image" src="images/Aerial02.jpg" alt="aerial">
             </div>
-            <br>
-            <div class="container">
+          </section>
+          <!-- portfolio title -->
+          <section class="row">
+            <div class="col">
               <h1 class="portfolio__title"> Featured Work </h1>
             </div>
-            <br>
+          </section>
+          <article class="row">
             <div class="col-lg-4 col-sm-6 portfolio-item">
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="images/Cosmos07.jpg" alt=""></a>
@@ -88,12 +94,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!-- /.row -->
-        </div>
-      </div> <!--row-->
-    </div>
-    <!-- /.container -->
+          </article>
+        </section> <!-- portfolio -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
   </body>
 
 </html>
